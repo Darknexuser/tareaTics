@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relleno</title>
+</head>
+<body>
+    
+<h3>Saludos!!!</h3>
+<h1>Gestión de Proyectos con Git y Visual Studio Code</h1>
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        section {
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Gestión de Proyectos con Git y Visual Studio Code</h1>
+</header>
+
+<section>
+    <h2>Introducción</h2>
+    <p>Git es una de las herramientas más utilizadas para el control de versiones en proyectos de software. Visual Studio Code, por otro lado, es un editor de código ligero que ofrece una integración perfecta con Git, permitiendo a los desarrolladores gestionar sus proyectos de manera eficiente. En este documento, exploraremos cómo configurar y utilizar Git junto con Visual Studio Code para gestionar un proyecto de manera eficaz.</p>
+</section>
+
+<section>
+    <h2>1. Instalación y Configuración Inicial</h2>
+    <p>Para comenzar, necesitamos instalar tanto Git como Visual Studio Code. Luego de la instalación, configuramos Git para identificar los cambios realizados en el proyecto mediante nuestro nombre y correo electrónico:</p>
+    <pre><code>git config --global user.name "Tu Nombre"</code></pre>
+    <pre><code>git config --global user.email "tuemail@ejemplo.com"</code></pre>
+</section>
+
+<section>
+    <h2>2. Creación de un Repositorio</h2>
+    <p>Una vez configurado Git, podemos inicializar un repositorio en la carpeta de nuestro proyecto utilizando el comando:</p>
+    <pre><code>git init</code></pre>
+    <p>Visual Studio Code detectará automáticamente el repositorio, mostrando opciones para gestionar el código desde su interfaz gráfica.</p>
+</section>
+
+<section>
+    <h2>3. Añadir y Confirmar Cambios</h2>
+    <p>Para añadir los archivos del proyecto al control de versiones, utilizamos el comando:</p>
+    <pre><code>git add .</code></pre>
+    <p>Luego, confirmamos los cambios con:</p>
+    <pre><code>git commit -m "Mensaje del commit"</code></pre>
+    <p>Esto también se puede hacer fácilmente desde la pestaña de <em>Source Control</em> en Visual Studio Code.</p>
+</section>
+
+<section>
+    <h2>4. Herramientas TIC para la Gestión de Proyectos</h2>
+    <p>Además de Git y Visual Studio Code, existen otras herramientas TIC que facilitan la gestión de proyectos:</p>
+    <ul>
+        <li><strong>Trello:</strong> Una plataforma de gestión de proyectos que permite organizar tareas en tableros visuales.</li>
+        <li><strong>Slack:</strong> Herramienta de comunicación para equipos que permite la colaboración en tiempo real mediante mensajes y canales.</li>
+        <li><strong>Jira:</strong> Herramienta de seguimiento de proyectos ágil utilizada para gestionar el desarrollo de software y rastrear problemas.</li>
+        <li><strong>Google Drive:</strong> Plataforma de almacenamiento en la nube que permite la colaboración en documentos y el almacenamiento compartido de archivos.</li>
+    </ul>
+    <p>Estas herramientas son fundamentales para mejorar la productividad, la comunicación y la coordinación entre equipos, asegurando un flujo de trabajo eficiente en cualquier proyecto.</p>
+</section>
+
+<section>
+    <h2>5. Conexión con un Repositorio Remoto</h2>
+    <p>Para compartir el proyecto, podemos conectarlo a un repositorio remoto como GitHub. Esto se logra usando el comando:</p>
+    <pre><code>git remote add origin https://github.com/tu-usuario/mi-proyecto.git</code></pre>
+    <p>Y luego empujamos los cambios con:</p>
+    <pre><code>git push -u origin master</code></pre>
+</section>
+
+<section>
+    <h2>6. Colaboración y Resolución de Conflictos</h2>
+    <p>Git facilita la colaboración entre varios desarrolladores. En caso de conflictos al fusionar ramas, Visual Studio Code ofrece herramientas visuales para resolverlos fácilmente, permitiendo seleccionar qué cambios mantener.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Gestión de Proyectos con Git y VS Code</p>
+</footer>
+
+
+</body>
+</html>
